@@ -1,40 +1,40 @@
 import React from "react";
 import logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
+
 const Navbar: React.FC = () => {
   return (
     <main>
       <section className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
         {/* Logo */}
-        <div className="text-2xl font-bold text-gray-800"><img src={logo}/></div>
+        <div className="text-2xl font-bold text-gray-800">
+          <Link to="/">
+            <img src={logo} alt="Logo" />
+          </Link>
+        </div>
 
         {/* Navigation Links */}
         <nav className="hidden md:flex gap-6 text-gray-700 font-medium">
-          <a href="#" className="hover:text-blue-600 transition">
+          <Link to="/occasions" className="hover:text-blue-600 transition">
             Occasions
-          </a>
-          <a href="#" className="hover:text-blue-600 transition">
+          </Link>
+          <Link to="/gift" className="hover:text-blue-600 transition">
             Gift
-          </a>
-          <a href="#" className="hover:text-blue-600 transition">
+          </Link>
+          <Link to="/brand" className="hover:text-blue-600 transition">
             Brand
-          </a>
-          <a href="#" className="hover:text-blue-600 transition">
+          </Link>
+          <Link to="/about" className="hover:text-blue-600 transition">
             About Us
-          </a>
+          </Link>
+          <Link to="/cart" className="px-4 py-2 text-sm font-medium text-white bg-[#E82933] rounded-[12px] hover:bg-red-700 transition">
+            Cart
+          </Link>
+          <Link to="/signin" className="px-4 py-2 text-sm font-medium text-[#171212] bg-[#F5F0F0] rounded-[12px] hover:shadow-md transition duration-200 ease-in-out">
+            Sign In
+          </Link>
         </nav>
 
-        {/* Action Buttons */}
-        <div className="flex gap-3">
-          <button className="px-4 py-2 text-sm font-medium text-gray-700 border border-gray-300 rounded hover:bg-gray-100 transition">
-            Login
-          </button>
-          <button className="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700 transition">
-            Sign Up
-          </button>
-          <button className="px-4 py-2 text-sm font-medium text-blue-600 border border-blue-600 rounded hover:bg-blue-50 transition">
-            Cart
-          </button>
-        </div>
       </section>
     </main>
   );

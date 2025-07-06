@@ -1,0 +1,29 @@
+{
+  "quickCategories": [
+    {
+      "title": "Birthday",
+      "image": "https://img.freepik.com/free-psd/3d-illustration-with-birthday-essentials_23-2151325766.jpg?t=st=1751790201~exp=1751793801~hmac=f65c855ce714e63747397ac25befc8e618ed724b17b2927e88562aecb33c0d58&w=1380",
+      "items": ["Cake", "Greeting Card", "Gift Box", "Balloon Set", "Perfume"]
+    },
+    {
+      "title": "Housewarming",
+      "image": "https://img.freepik.com/free-psd/3d-illustration-with-birthday-essentials_23-2151325766.jpg?t=st=1751790201~exp=1751793801~hmac=f65c855ce714e63747397ac25befc8e618ed724b17b2927e88562aecb33c0d58&w=1380",
+      "items": ["Welcome Mat", "Indoor Plant", "Wall Art", "Candle Set", "Home Toolkit"]
+    },
+    {
+      "title": "Couple",
+      "image": "https://img.freepik.com/free-psd/3d-illustration-with-birthday-essentials_23-2151325766.jpg?t=st=1751790201~exp=1751793801~hmac=f65c855ce714e63747397ac25befc8e618ed724b17b2927e88562aecb33c0d58&w=1380",
+      "items": ["Matching Mugs", "Couple Keychains", "Love Journal", "Photo Frame", "Date Night Kit"]
+    },
+    {
+      "title": "Anniversary",
+      "image": "https://img.freepik.com/free-psd/3d-illustration-with-birthday-essentials_23-2151325766.jpg?t=st=1751790201~exp=1751793801~hmac=f65c855ce714e63747397ac25befc8e618ed724b17b2927e88562aecb33c0d58&w=1380",
+      "items": ["Photo Album", "Wine Glasses", "Customized Jewelry", "Anniversary Card", "Romantic Dinner Voucher"]
+    },
+    {
+      "title": "Baby Shower",
+      "image": "https://img.freepik.com/free-psd/3d-illustration-with-birthday-essentials_23-2151325766.jpg?t=st=1751790201~exp=1751793801~hmac=f65c855ce714e63747397ac25befc8e618ed724b17b2927e88562aecb33c0d58&w=1380 ",
+      "items": ["Baby Blanket", "Diaper Cake", "Onesies Set", "Soft Toys", "Baby Memory Book"]
+    }
+  ]
+}

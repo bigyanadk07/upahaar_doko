@@ -1,0 +1,19 @@
+{
+  "featuredHampers": [
+    {
+      "title": "The Celebration Hamper",
+      "image": "/images/Featured-Image-1.png",
+      "description": "Perfect for birthdays and special celebrations."
+    },
+    {
+      "title": "The Cozy Night in Hamper",
+      "image": "/images/Featured-Image-2.png",
+      "description": "Ideal for relazing evening with your loved one."
+    },
+    {
+      "title": "The Gourmet Delights Hamper",
+      "image": "/images/Featured-Image-3.png",
+      "description": "A selection of gourmet treats for the food lover."
+    }
+  ]
+}
